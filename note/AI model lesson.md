@@ -1,17 +1,17 @@
-## Day1
+# Day1
 
-### 大模型的发展历史
+## 大模型的发展历史
 
 各个时间点
 
-### AI model compare
+## AI model compare
 
 1. Prompt Engineering 提示工程
 2. Agents 智能体
 3. Fine-tuning 微调
 4. Pre-training 预处理
 
-### Prompt Engineering
+## Prompt Engineering
 
 从与人沟通转变成优先与大模型沟通，比90%同事给的内容要好得多
 
@@ -19,7 +19,7 @@
 
 在和大模型沟通时候，耐心多给一些提示就能大模型举一反三
 
-#### Prompt的演进
+### Prompt的演进
 
 朴素的日报
 
@@ -43,7 +43,7 @@
 
 ![image-20240722103512481](AI model lesson.assets/image-20240722103512481.png)
 
-### AI Agents
+## AI Agents
 
 AI Agents类似终结者，核心是把大模型当作人的大脑，自己能解决的就按自己的思维推断出步骤，自己不能解决的则需要借助传感器来帮助自己解决。
 
@@ -69,7 +69,7 @@ RAG
 
 ![image-20240722104526938](AI model lesson.assets/image-20240722104526938.png)
 
-#### 大模型微调 Fine-tuning
+### 大模型微调 Fine-tuning
 
 模型就类似y=wx
 
@@ -112,11 +112,11 @@ open AI的迭代也是从预训练到微调
   + 指令微调，像训练小狗让它记住输入什么就要做上面事
   + 基于人类反馈的强化学习
 
-#### 预训练
+### 预训练
 
 LLaMA
 
-### 生成式
+## 生成式
 
 OpenAI年度总结
 
@@ -132,14 +132,14 @@ Gemini的超长上下文模型，开源版本是Gemma
 
 大模型的知识量是远超人类的
 
-### 未来趋势
+## 未来趋势
 
 1. 新架构的探索，研究者将探索新的，以提升处理速度，降低计算成本，提高模型的泛化能力
 2. 模型压缩和优化，目的减少模型的大小，和提升运行效率
 3. 自动化模型设计
 4. 跨模态
 
-### 挑战
+## 挑战
 
 1. 架构创新的复杂性
 2. 适配新架构的微调技术
@@ -147,7 +147,7 @@ Gemini的超长上下文模型，开源版本是Gemma
 4. 迁移学习的挑战
 5. 伦理和社会责任
 
-### AI创投案例
+## AI创投案例
 
 Pika，能生成和编辑3D动画、动漫
 
@@ -157,7 +157,7 @@ Scale AI
 
 通用模型和领域垂类模型
 
-### 基于GPT的Prompt技巧的最佳实践
+## 基于GPT的Prompt技巧的最佳实践
 
 + 角色设定，使用gpt时候不要用其他指代词，用User、System、Assitant。其他代词指男朋友、女朋友、家人、儿子这些能让gpt理解的词。如果设置来这些词，当挑战gpt身份时候，gpt就会露出马脚。
 + 指令注入
@@ -166,9 +166,9 @@ Scale AI
 + 编程思维
 + Few-Shot
 
-## 大预言模型理论基础与技术发展
+# 大预言模型理论基础与技术发展
 
-### 语言模型技术各个阶段
+## 语言模型技术各个阶段
 
 1. 统计语言模型
 
@@ -180,19 +180,35 @@ Scale AI
 
 ![image-20240722151000846](AI model lesson.assets/image-20240722151000846.png)
 
-### 注意力机制
+## 注意力机制
 
 在NLP、CV、推荐系统有明显提升
 
-### Transformer
+## Transformer
 
 
 
-### BERT vs GPT
+## BERT vs GPT
 
 ![image-20240722163831935](AI model lesson.assets/image-20240722163831935.png)
 
 ![image-20240722164038323](AI model lesson.assets/image-20240722164038323.png)
 
-### GPT1到GPT3
+## GPT1到GPT3
 
+# Day2
+
+## Token计算和计费
+
+1000个token大约相当于750个单词，实际一个token就是一个单词，但由于标点符号也算一个token
+
+## OpenAI GPT API 实践
+
+## 多模态
+
+gpt-4o将全部多模态都整合到了一起
+
+1. 图片识别，gpt-4v
+2. 文生图，dell-e
+3. 文生音，tts
+4. 音生文，whisper
