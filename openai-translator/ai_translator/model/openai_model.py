@@ -12,8 +12,6 @@ class OpenAIModel(Model):
     def __init__(self, model: str, api_key: str):
         self.model = model
         self.client = OpenAI(
-            # 中转Key或者直连Key
-
             # 代理地址，填写商家中转站或自建OpenAI代理
             base_url='https://api.xiaoai.plus/v1'
         )
