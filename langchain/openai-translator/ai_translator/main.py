@@ -13,8 +13,9 @@ if __name__ == "__main__":
 
     # 初始化配置单例
     config = TranslationConfig()
-    config.initialize(args)    
+    config.initialize(args)
 
     # 实例化 PDFTranslator 类，并调用 translate_pdf() 方法
-    translator = PDFTranslator(config.model_name)
-    translator.translate_pdf(config.input_file, config.output_file_format, pages=None)
+    translator = PDFTranslator(config.model_name, config.base_url)
+    translator.translate_pdf(config.input_file, config.output_file_format, source_language=config.source_language,
+                             target_language=config.target_language, pages=None)
