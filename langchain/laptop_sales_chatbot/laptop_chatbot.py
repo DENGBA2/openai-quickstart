@@ -40,7 +40,7 @@ def sales_chat(message, history):
 def launch_gradio():
     demo = gr.ChatInterface(
         fn=sales_chat,
-        title="房产销售",
+        title="笔记本电脑销售",
         # retry_btn=None,
         # undo_btn=None,
         chatbot=gr.Chatbot(height=600),
@@ -50,6 +50,6 @@ def launch_gradio():
 
 if __name__ == "__main__":
     # 初始化房产销售机器人
-    initialize_sales_bot()
+    initialize_sales_bot("laptop_faiss")
     # 启动 Gradio 服务
     launch_gradio()
