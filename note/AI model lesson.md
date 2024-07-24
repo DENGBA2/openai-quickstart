@@ -212,3 +212,5 @@ gpt-4o将全部多模态都整合到了一起
 2. 文生图，dell-e
 3. 文生音，tts
 4. 音生文，whisper
+
+## 向量 embedding
