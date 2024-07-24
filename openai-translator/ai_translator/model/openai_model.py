@@ -13,7 +13,7 @@ class OpenAIModel(Model):
         self.model = model
         self.client = OpenAI(
             # 中转Key或者直连Key
-            api_key='sk-1eaLNHqUQ7LXBLS38c47Bc660c63451897EeAc31Db192244',
+
             # 代理地址，填写商家中转站或自建OpenAI代理
             base_url='https://api.xiaoai.plus/v1'
         )
